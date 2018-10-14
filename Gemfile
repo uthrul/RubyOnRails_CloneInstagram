@@ -66,13 +66,7 @@ gem 'dropzonejs-rails', '~> 0.8.2'
 gem 'will_paginate-bootstrap4', '~> 0.2.2'
 
 group :development, :test do
-  # Call 'byebug' anywhere in the code to stop execution and get a debugger console
-  gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
-  # Adds support for Capybara system testing and selenium driver
-  gem 'capybara', '~> 2.13'
-  gem 'selenium-webdriver'
   gem 'sqlite3'
-  gem 'pry-rails'
 end
 
 group :production do
