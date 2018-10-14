@@ -9,6 +9,7 @@ end
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.1.6'
 # Use sqlite3 as the database for Active Record
+gem 'sqlite3'
 # Use Puma as the app server
 gem 'puma', '~> 3.7'
 # Use SCSS for stylesheets
@@ -63,12 +64,4 @@ gem 'cloudinary', '~> 1.9', '>= 1.9.1'
 gem 'figaro', '~> 1.1', '>= 1.1.1'
 gem 'dropzonejs-rails', '~> 0.8.2'
 gem 'will_paginate-bootstrap4', '~> 0.2.2'
-
-group :development, :test do
-  gem 'sqlite3'
-end
-
-group :production do 
-  gem 'pg'
-  gem 'rails_12factor'
-end
+gem 'pg'
